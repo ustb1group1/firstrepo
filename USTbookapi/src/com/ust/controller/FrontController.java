@@ -37,6 +37,7 @@ public class FrontController {
 		return bookDaoImpl.get(id);
 	}
 	
+	//insert
 	@RequestMapping(value="/api/insertbook",method=RequestMethod.POST)
 	public void insertBook(@RequestBody Book b)
 	{
